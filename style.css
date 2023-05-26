@@ -632,6 +632,94 @@
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 360px), (max-height: 740px) {
+  /* Navbar */
+  nav ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 1000%;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .adjust-icon {
+    display: block;
+  }
+
+  /* Home section */
+  #home .container {
+    padding: 30px 30px;
+  }
+
+  /* About section */
+  #about h2 {
+    font-size: 2rem;
+  }
+
+  #about p {
+    font-size: 10px;
+  }
+
+  #about ul {
+    font-size: 10px;
+  }
+
+  #contact .container {
+    padding: 30px 40px;
+  }
+
+  /* Services section */
+  #services h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 80%;
+    margin-left: 32px !important;
+  }
+
+  .container .card i {
+    font-size: 30px;
+    margin-left: 0;
+  }
+
+  .container .card .text {
+    font-size: 20px;
+  }
+
+  /* Contact section */
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact form label,
+  #contact form input,
+  #contact form textarea {
+    font-size: 1.2rem;
+  }
+
+  #contact form input[type="submit"] {
+    font-size: 1.2rem;
+  }
+}
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   /* Navbar */
@@ -795,7 +883,94 @@
 }
 
 /* Additional media queries for larger screens */
-
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  /* Navbar */
+  nav ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  height: 1000%;
+  }
+  
+  nav ul.show {
+  display: flex;
+  }
+  
+  nav ul li {
+  margin: 15px 0;
+  }
+  
+  .menu-btn {
+  display: block;
+  }
+  
+  .adjust-icon {
+  display: block;
+  }
+  
+  /* Home section */
+  #home .container {
+  padding: 30px 40px;
+  }
+  
+  /* About section */
+  #about h2 {
+  font-size: 2rem;
+  }
+  
+  #about p {
+  font-size: 10px;
+  }
+  
+  #about ul {
+  font-size: 10px;
+  }
+  
+  #contact .container {
+  padding: 30px 40px;
+  }
+  
+  /* Services section */
+  #services h2 {
+  font-size: 2rem;
+  }
+  
+  .card {
+  width: 90%;
+  margin-left: 32px !important;
+  }
+  
+  .container .card i {
+  font-size: 30px;
+  margin-left: 0;
+  }
+  
+  .container .card .text {
+  font-size: 20px;
+  }
+  
+  /* Contact section */
+  #contact h2 {
+  font-size: 2rem;
+  }
+  
+  #contact form label,
+  #contact form input,
+  #contact form textarea {
+  font-size: 1.2rem;
+  }
+  
+  #contact form input[type="submit"] {
+  font-size: 1.2rem;
+  }
+}
 /* Tablets (Portrait) */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /* Custom styles for tablets in portrait orientation */
