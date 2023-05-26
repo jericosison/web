@@ -881,7 +881,15 @@
     font-size: 1.6rem;
   }
 }
-
+@media screen and (min-width: 600px){
+.menu-btn {
+  display: block;
+  }
+  
+  .adjust-icon {
+  display: block;
+  }
+}
 /* Additional media queries for larger screens */
 @media screen and (max-width: 1024px) and (max-height: 600px) {
   /* Navbar */
