@@ -579,9 +579,7 @@
     display: block;
   }
 
-  .adjust-icon {
-    display: block;
-  }
+  
 
 
   /* About section */
@@ -660,10 +658,7 @@
     display: block;
   }
 
-  .adjust-icon {
-    display: block;
-  }
-
+  
   /* Home section */
   #home .container {
     padding: 30px 30px;
@@ -749,9 +744,6 @@
     display: block;
   }
 
-  .adjust-icon {
-    display: block;
-  }
 
   /* Home section */
   #home .typing {
@@ -803,7 +795,13 @@
     font-size: 1.4rem;
   }
 }
+@media screen and (min-width: 600px){
+.menu-btn {
+  display: block;
+  }
+  
 
+}
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   /* Navbar */
   nav ul {
@@ -881,15 +879,7 @@
     font-size: 1.6rem;
   }
 }
-@media screen and (min-width: 600px){
-.menu-btn {
-  display: block;
-  }
-  
-  .adjust-icon {
-  display: block;
-  }
-}
+
 /* Additional media queries for larger screens */
 @media screen and (max-width: 1024px) and (max-height: 600px) {
   /* Navbar */
@@ -919,9 +909,7 @@
   display: block;
   }
   
-  .adjust-icon {
-  display: block;
-  }
+ 
   
   /* Home section */
   #home .container {
